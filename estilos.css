@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #667085;
+}
+
+.botao a{
+    text-decoration: none;
+}
+
+.botao1{
+    color: #667085;
+}
+
+.botao2{
+    color: white;
+    background: #8e2424;
+    border: 1px solid #8e2424;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.subtitulo{
+    color: #8e2424;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    size: 20px;
+    line-height: 30px;
+    color: #667085;
+    align-items: center;
+    font: inter;
+}
+
+.metricas-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metricas-titulo{
+    font-size: 60px;
+    color: #8e2424;
+}
+
+ .metricas-subtitulo{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.metricas-texto{
+    color: #667085;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subtitulo2{
+    color: #8e2424;
+    display: flex;
+    background: #8E24240D;
+    border: 10px solid #8E24240D;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragrafo2{
+    display: flex;
+    justify-content: space-around;
+    color: #667085;
+    font-size: 15px;
+}
+
+.imagem{
+    width: 1520px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.profissao{
+    font-size: 20px;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.vaga{
+    width: 768px;
+    margin: 50px auto;
+    border: 1px solid #eaecf0;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+    border-radius: 16px;
+}
+
+.titulo-vaga{
+    width: 720px;
+    height: 28px;
+    font-size: 18px;
+    align-self: stretch;
+    margin: 8px 8px 28px;
+    font-weight: 750;
+}
+
+.informacoes{
+    color: #667085;
+    font-size: 16px;
+    margin: 0 8px;
+    align-self: stretch;
+}
+.paragrafo3{
+    color: #8e2424;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragrafo4{
+    color: #101828;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 36px;
+}
+
+.avatar{
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo5{
+    color: #101828;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.paragrafo6{
+    color: #667085;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.depoimentos{
+    background: rgba(196, 25, 25, 0.03);
+    width: 1200px;
+    height: 380px;
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 94px;
+    margin: 100px auto;
+    background: #F9FAFB;
+}
+
+.formulario h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.formulario h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin: 0 0 20px;
+}
+
+.formulario ul li {
+    margin: 0;
+}
+
+.formulario input {
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    align-items: center;
+    padding: 12px 14px 12px 16px;
+}
+
+.formulario a {
+    color: white;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.formulario p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+}
